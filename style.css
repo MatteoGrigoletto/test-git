@@ -3,6 +3,71 @@
   padding: 0;
   margin: 0;
 }
+/* COMMON */
+/* container base */
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+/* container hero e footer */
+.container-big {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 9vh;
+}
+/* display-flex */
+.flex {
+  display: flex;
+}
+/* display-flex + flex-wrap*/
+.flex-wrap {
+  flex-wrap: wrap;
+  display: flex;
+}
+/* display-flex + justify-content:space-between*/
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+/* larghezza colonne  */
+.w-70 {
+  width: 70%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-30 {
+  width: 30%;
+}
+/* BUTTONS */
+/* bottone base */
+.btn {
+  padding: 10px 20px;
+  background-color: #0061ff;
+  color: white;
+  border: none;
+  transition: background-color 0.5s scale 1s;
+}
+/* bottone bianco  */
+.secondary-btn {
+  color: black;
+  background-color: white;
+  border: 1px solid;
+}
+/* hover bottoni */
+.btn:hover {
+  cursor: pointer;
+  scale: 1.1;
+  box-shadow: 1px 1px 1px 1px black;
+}
+/* active bottoni */
+.btn:active {
+  scale: 1;
+  box-shadow: inset 1px 1px 1px 1px black;
+}
 /* HEADER */
 header {
   background-color: white;
